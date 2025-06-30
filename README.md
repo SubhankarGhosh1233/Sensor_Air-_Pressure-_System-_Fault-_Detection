@@ -37,6 +37,9 @@ df.to_csv("aps_failure_training_set1.csv", index=False)
 print("CSV file saved successfully!")'''
 
 MongoDb_Connecting_string= "mongodb+srv://subhankar:Subhankar@cluster1.xsd7qsq.mongodb.net/"
+###### dataBase_name = "apsSensor"
+###### collection_name="Sensor"
+
 ### setup.py 
 #### sensor
 it is the package contained all source code
