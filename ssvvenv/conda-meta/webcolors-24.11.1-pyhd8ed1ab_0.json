@@ -1,0 +1,179 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge",
+  "constrains": [],
+  "depends": [
+    "python >=3.9"
+  ],
+  "extracted_package_dir": "C:\\Users\\PC\\anaconda3\\pkgs\\webcolors-24.11.1-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/webcolors-24.11.1.dist-info/INSTALLER",
+    "Lib/site-packages/webcolors-24.11.1.dist-info/METADATA",
+    "Lib/site-packages/webcolors-24.11.1.dist-info/RECORD",
+    "Lib/site-packages/webcolors-24.11.1.dist-info/REQUESTED",
+    "Lib/site-packages/webcolors-24.11.1.dist-info/WHEEL",
+    "Lib/site-packages/webcolors-24.11.1.dist-info/direct_url.json",
+    "Lib/site-packages/webcolors-24.11.1.dist-info/entry_points.txt",
+    "Lib/site-packages/webcolors-24.11.1.dist-info/licenses/LICENSE",
+    "Lib/site-packages/webcolors/__init__.py",
+    "Lib/site-packages/webcolors/_conversion.py",
+    "Lib/site-packages/webcolors/_definitions.py",
+    "Lib/site-packages/webcolors/_html5.py",
+    "Lib/site-packages/webcolors/_normalization.py",
+    "Lib/site-packages/webcolors/_types.py",
+    "Lib/site-packages/webcolors/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/webcolors/__pycache__/_conversion.cpython-39.pyc",
+    "Lib/site-packages/webcolors/__pycache__/_definitions.cpython-39.pyc",
+    "Lib/site-packages/webcolors/__pycache__/_html5.cpython-39.pyc",
+    "Lib/site-packages/webcolors/__pycache__/_normalization.cpython-39.pyc",
+    "Lib/site-packages/webcolors/__pycache__/_types.cpython-39.pyc"
+  ],
+  "fn": "webcolors-24.11.1-pyhd8ed1ab_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "C:\\Users\\PC\\anaconda3\\pkgs\\webcolors-24.11.1-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "b49f7b291e15494aafb0a7d74806f337",
+  "name": "webcolors",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\PC\\anaconda3\\pkgs\\webcolors-24.11.1-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/webcolors-24.11.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/webcolors-24.11.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "821dc0f89860bda2137ea1ee3b059e2abaefb9891d30f60027be3ec1390a0788",
+        "sha256_in_prefix": "821dc0f89860bda2137ea1ee3b059e2abaefb9891d30f60027be3ec1390a0788",
+        "size_in_bytes": 2207
+      },
+      {
+        "_path": "site-packages/webcolors-24.11.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "a135542095143ef202befd45dc63e2198bd85db74c41f0de435fde962e294303",
+        "sha256_in_prefix": "a135542095143ef202befd45dc63e2198bd85db74c41f0de435fde962e294303",
+        "size_in_bytes": 1495
+      },
+      {
+        "_path": "site-packages/webcolors-24.11.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/webcolors-24.11.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "b6169a036c352737060b8f1662e7c0b3c9eb6198c99bc2ea35f9d714e172082e",
+        "sha256_in_prefix": "b6169a036c352737060b8f1662e7c0b3c9eb6198c99bc2ea35f9d714e172082e",
+        "size_in_bytes": 90
+      },
+      {
+        "_path": "site-packages/webcolors-24.11.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "7ac6144ac75a4904a29ae1d3398869338d7377db4ad724a5c29ef04405148f05",
+        "sha256_in_prefix": "7ac6144ac75a4904a29ae1d3398869338d7377db4ad724a5c29ef04405148f05",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "site-packages/webcolors-24.11.1.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "e8e62005c2f21425207aa2e09ef332389c4f096ce0cbbb1ee2b2cf2ad3689ccb",
+        "sha256_in_prefix": "e8e62005c2f21425207aa2e09ef332389c4f096ce0cbbb1ee2b2cf2ad3689ccb",
+        "size_in_bytes": 34
+      },
+      {
+        "_path": "site-packages/webcolors-24.11.1.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "224bb9063d1204f687477a680fab945debff8cf717c629510c1d7083d9a7969a",
+        "sha256_in_prefix": "224bb9063d1204f687477a680fab945debff8cf717c629510c1d7083d9a7969a",
+        "size_in_bytes": 1531
+      },
+      {
+        "_path": "site-packages/webcolors/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4fbd0146c09bcf41fabaf265e48842af8a7db9ed0c2d29114451545544d320a7",
+        "sha256_in_prefix": "4fbd0146c09bcf41fabaf265e48842af8a7db9ed0c2d29114451545544d320a7",
+        "size_in_bytes": 1604
+      },
+      {
+        "_path": "site-packages/webcolors/_conversion.py",
+        "path_type": "hardlink",
+        "sha256": "0c4bd9402f534a182cb47f040e3fd2a3706d3b960e98367125fe93869bf4c233",
+        "sha256_in_prefix": "0c4bd9402f534a182cb47f040e3fd2a3706d3b960e98367125fe93869bf4c233",
+        "size_in_bytes": 13361
+      },
+      {
+        "_path": "site-packages/webcolors/_definitions.py",
+        "path_type": "hardlink",
+        "sha256": "f9412f3e4400399e148680e0a34fd99dcf5b3201053b5edaa07ccc52bda8b1fc",
+        "sha256_in_prefix": "f9412f3e4400399e148680e0a34fd99dcf5b3201053b5edaa07ccc52bda8b1fc",
+        "size_in_bytes": 10257
+      },
+      {
+        "_path": "site-packages/webcolors/_html5.py",
+        "path_type": "hardlink",
+        "sha256": "5add122756184ba7598793bf604d25c2e469daef0e3a4354c335e76d4bc6f1ce",
+        "sha256_in_prefix": "5add122756184ba7598793bf604d25c2e469daef0e3a4354c335e76d4bc6f1ce",
+        "size_in_bytes": 9734
+      },
+      {
+        "_path": "site-packages/webcolors/_normalization.py",
+        "path_type": "hardlink",
+        "sha256": "5fecd93499670c22de2c155421395e1c82a32fa17de0019193b25e970188d987",
+        "sha256_in_prefix": "5fecd93499670c22de2c155421395e1c82a32fa17de0019193b25e970188d987",
+        "size_in_bytes": 4016
+      },
+      {
+        "_path": "site-packages/webcolors/_types.py",
+        "path_type": "hardlink",
+        "sha256": "6c8bda9bcd297c1bd8016a69cd188f1ba6b74eb09684002061087e5cc8d58f4c",
+        "sha256_in_prefix": "6c8bda9bcd297c1bd8016a69cd188f1ba6b74eb09684002061087e5cc8d58f4c",
+        "size_in_bytes": 1858
+      },
+      {
+        "_path": "Lib/site-packages/webcolors/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/webcolors/__pycache__/_conversion.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/webcolors/__pycache__/_definitions.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/webcolors/__pycache__/_html5.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/webcolors/__pycache__/_normalization.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/webcolors/__pycache__/_types.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "08315dc2e61766a39219b2d82685fc25a56b2817acf84d5b390176080eaacf99",
+  "size": 18431,
+  "subdir": "noarch",
+  "timestamp": 1733359823000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/webcolors-24.11.1-pyhd8ed1ab_0.conda",
+  "version": "24.11.1"
+}

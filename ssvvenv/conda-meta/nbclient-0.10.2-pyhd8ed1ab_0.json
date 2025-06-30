@@ -1,0 +1,227 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge",
+  "constrains": [],
+  "depends": [
+    "jupyter_client >=6.1.12",
+    "jupyter_core >=4.12,!=5.0.*",
+    "nbformat >=5.1",
+    "python >=3.8",
+    "traitlets >=5.4"
+  ],
+  "extracted_package_dir": "C:\\Users\\PC\\anaconda3\\pkgs\\nbclient-0.10.2-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "Scripts/jupyter-execute",
+    "Lib/site-packages/nbclient-0.10.2.dist-info/INSTALLER",
+    "Lib/site-packages/nbclient-0.10.2.dist-info/METADATA",
+    "Lib/site-packages/nbclient-0.10.2.dist-info/RECORD",
+    "Lib/site-packages/nbclient-0.10.2.dist-info/REQUESTED",
+    "Lib/site-packages/nbclient-0.10.2.dist-info/WHEEL",
+    "Lib/site-packages/nbclient-0.10.2.dist-info/direct_url.json",
+    "Lib/site-packages/nbclient-0.10.2.dist-info/entry_points.txt",
+    "Lib/site-packages/nbclient-0.10.2.dist-info/licenses/LICENSE",
+    "Lib/site-packages/nbclient/__init__.py",
+    "Lib/site-packages/nbclient/_version.py",
+    "Lib/site-packages/nbclient/cli.py",
+    "Lib/site-packages/nbclient/client.py",
+    "Lib/site-packages/nbclient/exceptions.py",
+    "Lib/site-packages/nbclient/jsonutil.py",
+    "Lib/site-packages/nbclient/output_widget.py",
+    "Lib/site-packages/nbclient/py.typed",
+    "Lib/site-packages/nbclient/util.py",
+    "Lib/site-packages/nbclient/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/nbclient/__pycache__/_version.cpython-39.pyc",
+    "Lib/site-packages/nbclient/__pycache__/cli.cpython-39.pyc",
+    "Lib/site-packages/nbclient/__pycache__/client.cpython-39.pyc",
+    "Lib/site-packages/nbclient/__pycache__/exceptions.cpython-39.pyc",
+    "Lib/site-packages/nbclient/__pycache__/jsonutil.cpython-39.pyc",
+    "Lib/site-packages/nbclient/__pycache__/output_widget.cpython-39.pyc",
+    "Lib/site-packages/nbclient/__pycache__/util.cpython-39.pyc"
+  ],
+  "fn": "nbclient-0.10.2-pyhd8ed1ab_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "C:\\Users\\PC\\anaconda3\\pkgs\\nbclient-0.10.2-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "6bb0d77277061742744176ab555b723c",
+  "name": "nbclient",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\PC\\anaconda3\\pkgs\\nbclient-0.10.2-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "python-scripts/jupyter-execute",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/nbclient_1734628800805/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "3c797724a6e0c882aa90c0f72a899f3f9f0e38b16cc95021f4cd9b040ac52732",
+        "sha256_in_prefix": "5479e3714db45098eb552297f59e9c265983335c38359807791ff2b735982e4b",
+        "size_in_bytes": 494
+      },
+      {
+        "_path": "site-packages/nbclient-0.10.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/nbclient-0.10.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "0201da18360094d3817a24e8ffe065af04d75e877350837f6132c202a125a4a6",
+        "sha256_in_prefix": "0201da18360094d3817a24e8ffe065af04d75e877350837f6132c202a125a4a6",
+        "size_in_bytes": 8263
+      },
+      {
+        "_path": "site-packages/nbclient-0.10.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "696be9d191be769892a56017c398cb96a2ccabb3d87c3a2b71bef217ec952306",
+        "sha256_in_prefix": "696be9d191be769892a56017c398cb96a2ccabb3d87c3a2b71bef217ec952306",
+        "size_in_bytes": 1854
+      },
+      {
+        "_path": "site-packages/nbclient-0.10.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/nbclient-0.10.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "aad0b0a12256807936d52d4a6f88a1773236ae527564a688bab4e3fe780e8724",
+        "sha256_in_prefix": "aad0b0a12256807936d52d4a6f88a1773236ae527564a688bab4e3fe780e8724",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "site-packages/nbclient-0.10.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "b285325471eb536419697156bd1738706b0ae3899e8397ce98e39b98271c4987",
+        "sha256_in_prefix": "b285325471eb536419697156bd1738706b0ae3899e8397ce98e39b98271c4987",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "site-packages/nbclient-0.10.2.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "b072509d4055a242b8e8ed8f2be835586f500214e6697cb77f0b2143fb7b4c50",
+        "sha256_in_prefix": "b072509d4055a242b8e8ed8f2be835586f500214e6697cb77f0b2143fb7b4c50",
+        "size_in_bytes": 54
+      },
+      {
+        "_path": "site-packages/nbclient-0.10.2.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "83c56c2de2a2a71227d0a98fd246049e6320c094d03e2d560c7c0c0b3ec576e9",
+        "sha256_in_prefix": "83c56c2de2a2a71227d0a98fd246049e6320c094d03e2d560c7c0c0b3ec576e9",
+        "size_in_bytes": 1534
+      },
+      {
+        "_path": "site-packages/nbclient/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "90e928c78ae2103d36dd5eb68810c930a6c8d55707dcb33a54445a5fd97abfa7",
+        "sha256_in_prefix": "90e928c78ae2103d36dd5eb68810c930a6c8d55707dcb33a54445a5fd97abfa7",
+        "size_in_bytes": 164
+      },
+      {
+        "_path": "site-packages/nbclient/_version.py",
+        "path_type": "hardlink",
+        "sha256": "22cf6eafaa68450a2bdda27d35502345b24ace38c93c60e67b88d99d30754b63",
+        "sha256_in_prefix": "22cf6eafaa68450a2bdda27d35502345b24ace38c93c60e67b88d99d30754b63",
+        "size_in_bytes": 463
+      },
+      {
+        "_path": "site-packages/nbclient/cli.py",
+        "path_type": "hardlink",
+        "sha256": "e1979d228acc6ed545caa9b0961817c7efc5db0dbe6addf479fedcef359cc333",
+        "sha256_in_prefix": "e1979d228acc6ed545caa9b0961817c7efc5db0dbe6addf479fedcef359cc333",
+        "size_in_bytes": 6781
+      },
+      {
+        "_path": "site-packages/nbclient/client.py",
+        "path_type": "hardlink",
+        "sha256": "3a30187449d2fea6ce6063e79cbaa0edf1478947099a8b66d8d2fb30a0418971",
+        "sha256_in_prefix": "3a30187449d2fea6ce6063e79cbaa0edf1478947099a8b66d8d2fb30a0418971",
+        "size_in_bytes": 49833
+      },
+      {
+        "_path": "site-packages/nbclient/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "de3ead9b49495404991d3a38727a6fa81c4df45284a641d4698c831bb0ab2236",
+        "sha256_in_prefix": "de3ead9b49495404991d3a38727a6fa81c4df45284a641d4698c831bb0ab2236",
+        "size_in_bytes": 4065
+      },
+      {
+        "_path": "site-packages/nbclient/jsonutil.py",
+        "path_type": "hardlink",
+        "sha256": "58f2610ee8dbabcb42f28d6c863e31a206a76420487880dc90bd2e39039fac96",
+        "sha256_in_prefix": "58f2610ee8dbabcb42f28d6c863e31a206a76420487880dc90bd2e39039fac96",
+        "size_in_bytes": 4612
+      },
+      {
+        "_path": "site-packages/nbclient/output_widget.py",
+        "path_type": "hardlink",
+        "sha256": "83b10ac8abbf8ccefa3999d0de79eaa4339d4ebd308d085dee25491b1f81a3c2",
+        "sha256_in_prefix": "83b10ac8abbf8ccefa3999d0de79eaa4339d4ebd308d085dee25491b1f81a3c2",
+        "size_in_bytes": 4527
+      },
+      {
+        "_path": "site-packages/nbclient/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/nbclient/util.py",
+        "path_type": "hardlink",
+        "sha256": "6d6cd39ca1d506837d88fd6b5d8c821a6eeac824294500f00cee0506d8e313b7",
+        "sha256_in_prefix": "6d6cd39ca1d506837d88fd6b5d8c821a6eeac824294500f00cee0506d8e313b7",
+        "size_in_bytes": 544
+      },
+      {
+        "_path": "Lib/site-packages/nbclient/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/nbclient/__pycache__/_version.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/nbclient/__pycache__/cli.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/nbclient/__pycache__/client.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/nbclient/__pycache__/exceptions.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/nbclient/__pycache__/jsonutil.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/nbclient/__pycache__/output_widget.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/nbclient/__pycache__/util.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "a20cff739d66c2f89f413e4ba4c6f6b59c50d5c30b5f0d840c13e8c9c2df9135",
+  "size": 28045,
+  "subdir": "noarch",
+  "timestamp": 1734628936000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/nbclient-0.10.2-pyhd8ed1ab_0.conda",
+  "version": "0.10.2"
+}

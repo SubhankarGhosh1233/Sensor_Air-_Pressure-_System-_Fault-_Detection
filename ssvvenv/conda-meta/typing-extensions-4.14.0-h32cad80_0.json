@@ -1,0 +1,61 @@
+{
+  "build": "h32cad80_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge",
+  "constrains": [],
+  "depends": [
+    "typing_extensions ==4.14.0 pyhe01879c_0"
+  ],
+  "extracted_package_dir": "C:\\Users\\PC\\anaconda3\\pkgs\\typing-extensions-4.14.0-h32cad80_0",
+  "features": "",
+  "files": [
+    "etc/conda/test-files/typing-extensions/1/src/_typed_dict_test_helper.py",
+    "etc/conda/test-files/typing-extensions/1/src/test_typing_extensions.py",
+    "etc/conda/test-files/typing-extensions/1/src/typing_extensions.py"
+  ],
+  "fn": "typing-extensions-4.14.0-h32cad80_0.conda",
+  "license": "PSF-2.0",
+  "link": {
+    "source": "C:\\Users\\PC\\anaconda3\\pkgs\\typing-extensions-4.14.0-h32cad80_0",
+    "type": 1
+  },
+  "md5": "a1cdd40fc962e2f7944bc19e01c7e584",
+  "name": "typing-extensions",
+  "noarch": "generic",
+  "package_tarball_full_path": "C:\\Users\\PC\\anaconda3\\pkgs\\typing-extensions-4.14.0-h32cad80_0.conda",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "etc/conda/test-files/typing-extensions/1/src/_typed_dict_test_helper.py",
+        "path_type": "hardlink",
+        "sha256": "d522d5308180d08c7775347f5cc7c842c52f3791d5b2d3c2ff7664ebc64015e9",
+        "sha256_in_prefix": "d522d5308180d08c7775347f5cc7c842c52f3791d5b2d3c2ff7664ebc64015e9",
+        "size_in_bytes": 564
+      },
+      {
+        "_path": "etc/conda/test-files/typing-extensions/1/src/test_typing_extensions.py",
+        "path_type": "hardlink",
+        "sha256": "a1803d2e2edbc1cb7723e2194df545c8246cabd16884d2dbfc28383ebefdac65",
+        "sha256_in_prefix": "a1803d2e2edbc1cb7723e2194df545c8246cabd16884d2dbfc28383ebefdac65",
+        "size_in_bytes": 331021
+      },
+      {
+        "_path": "etc/conda/test-files/typing-extensions/1/src/typing_extensions.py",
+        "path_type": "hardlink",
+        "sha256": "cc67bb3a7d7a4b91d597470f9689f7c22bfa334c98bdac4399f946e6dafab6fd",
+        "sha256_in_prefix": "cc67bb3a7d7a4b91d597470f9689f7c22bfa334c98bdac4399f946e6dafab6fd",
+        "size_in_bytes": 157143
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "b8cabfa54432b0f124c0af6b6facdf8110892914fa841ac2e80ab65ac52c1ba4",
+  "size": 90310,
+  "subdir": "noarch",
+  "timestamp": 1748959427000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/typing-extensions-4.14.0-h32cad80_0.conda",
+  "version": "4.14.0"
+}
