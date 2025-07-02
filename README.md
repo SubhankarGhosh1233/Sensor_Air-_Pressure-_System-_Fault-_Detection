@@ -39,7 +39,8 @@ print("CSV file saved successfully!")'''
 MongoDb_Connecting_string= "mongodb+srv://subhankar:Subhankar@cluster1.xsd7qsq.mongodb.net/"
 ###### dataBase_name = "apsSensor"
 ###### collection_name="Sensor"
-
+#####            self.database_name="apsSensor"
+#####              self.collection_name="Sensor"
 ### setup.py 
 #### sensor
 it is the package contained all source code
