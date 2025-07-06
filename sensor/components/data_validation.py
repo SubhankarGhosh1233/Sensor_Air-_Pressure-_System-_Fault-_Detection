@@ -64,7 +64,7 @@ class DataValidation:
 
     def is_required_columns_exists(self,base_df:pd.DataFrame,current_df:pd.DataFrame,report_key_name:str)->bool:
         try:
-           
+            
             base_columns = base_df.columns
             current_columns = current_df.columns
 
@@ -83,7 +83,33 @@ class DataValidation:
 
     def data_drift(self,base_df:pd.DataFrame,current_df:pd.DataFrame,report_key_name:str):
         try:
-            pass
+            drift_report=dict()
+
+            base_columns = base_df.columns
+            current_columns = current_df.columns
+
+            for base_column in base_columns:
+                base_data,current_data = base_df[base_column],current_df[base_column]
+                #Null hypothesis is that both column data drawn from same distrubtion
+                
+                logging.info(f"Hypothesis {base_column}: {base_data.dtype}, {current_data.dtype} ")
+                same_distribution =ks_2samp(base_data,current_data)
+
+                if same_distribution.pvalue>0.05:
+                    #We are accepting null hypothesis
+                    drift_report[base_column]={
+                        "pvalues":float(same_distribution.pvalue),
+                        "same_distribution": True
+                    }
+                    #different distribution
+                else:
+                    drift_report[base_column]={
+                        "pvalues":float(same_distribution.pvalue),
+                        "same_distribution":False
+                    }
+                    
+
+            self.validation_error[report_key_name]=drift_report
 
         except Exception as e:
             raise SensorException(e, sys)
@@ -93,4 +119,11 @@ class DataValidation:
 
 
     def initiate_data_validation(self)->artifact_entity.DataValidationArtifact:
-        pass
+        try:
+            pass
+
+        except Exception as e:
+            raise SensorException(e, sys)
+        
+
+
