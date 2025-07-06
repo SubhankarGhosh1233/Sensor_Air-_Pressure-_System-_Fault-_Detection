@@ -8,7 +8,7 @@ import os,sys
 import pandas as pd
 from sensor import utils
 import numpy as np
-from sensor.config import TARGET_COLUMN
+#from sensor.config import TARGET_COLUMN
 
 
 
@@ -32,7 +32,7 @@ class DataValidation:
 
 
 
-    def drop_missing_values_columns(self,df:pd.DataFrame,)->pd.DataFrame:
+    def drop_missing_values_columns(self,df:pd.DataFrame,report_key_name:str)->pd.DataFrame:
         """
         This function will drop column which contains missing value more than specified threshold
 
@@ -71,7 +71,7 @@ class DataValidation:
             missing_columns = []
             for base_column in base_columns:
                 if base_column not in current_columns:
-                    #logging.info(f"Column: [{base} is not available.]")
+                    logging.info(f"Column: [{base} is not available.]")
                     missing_columns.append(base_column)
 
             if len(missing_columns)>0:
@@ -120,7 +120,42 @@ class DataValidation:
 
     def initiate_data_validation(self)->artifact_entity.DataValidationArtifact:
         try:
-            pass
+            logging.info(f"Reading base dataframe")
+            base_df = pd.read_csv(self.data_validation_config.base_file_path)
+            base_df.replace({"na":np.NAN},inplace=True)
+            logging.info(f"Replace na value in base df")
+            #base_df has na as null
+            logging.info(f"Drop null values colums from base df")
+            base_df=self.drop_missing_values_columns(df=base_df,report_key_name="missing_values_within_base_dataset")
+
+            logging.info(f"Reading train dataframe")
+            train_df = pd.read_csv(self.data_ingestion_artifact.train_file_path)
+            logging.info(f"Reading test dataframe")
+            test_df = pd.read_csv(self.data_ingestion_artifact.test_file_path)
+
+            logging.info(f"Drop null values colums from train df")
+            train_df = self.drop_missing_values_columns(df=train_df,report_key_name="missing_values_within_train_dataset")
+            logging.info(f"Drop null values colums from test df")
+            test_df = self.drop_missing_values_columns(df=test_df,report_key_name="missing_values_within_test_dataset")
+            
+            #exclude_columns = [TARGET_COLUMN]
+            #base_df = utils.convert_columns_float(df=base_df, exclude_columns=exclude_columns)
+            #train_df = utils.convert_columns_float(df=train_df, exclude_columns=exclude_columns)
+            #test_df = utils.convert_columns_float(df=test_df, exclude_columns=exclude_columns)
+
+
+            logging.info(f"Is all required columns present in train df")
+            train_df_columns_status = self.is_required_columns_exists(base_df=base_df, current_df=train_df,report_key_name="missing_columns_within_train_dataset")
+            logging.info(f"Is all required columns present in test df")
+            test_df_columns_status = self.is_required_columns_exists(base_df=base_df, current_df=test_df,report_key_name="missing_columns_within_test_dataset")
+
+            if train_df_columns_status:
+                logging.info(f"As all column are available in train df hence detecting data drift")
+                self.data_drift(base_df=base_df, current_df=train_df,report_key_name="data_drift_within_train_dataset")
+            if test_df_columns_status:
+                logging.info(f"As all column are available in test df hence detecting data drift")
+                self.data_drift(base_df=base_df, current_df=test_df,report_key_name="data_drift_within_test_dataset")
+
 
         except Exception as e:
             raise SensorException(e, sys)
