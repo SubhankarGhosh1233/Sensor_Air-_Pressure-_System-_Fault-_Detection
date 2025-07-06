@@ -56,6 +56,9 @@ class DataIngestion:
             train_df.to_csv(path_or_buf=self.data_ingestion_config.train_file_path,index=False,header=True)
             test_df.to_csv(path_or_buf=self.data_ingestion_config.test_file_path,index=False,header=True)
             
+            # Log shapes of the train and test dataframes
+            logging.info(f"Training data shape: {train_df.shape}")
+            logging.info(f"Testing data shape: {test_df.shape}")            
             #Prepare artifact
 
             data_ingestion_artifact = artifact_entity.DataIngestionArtifact(
