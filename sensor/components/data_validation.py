@@ -11,10 +11,6 @@ import numpy as np
 from sensor.config import TARGET_COLUMN
 
 
-
-
-
-
 class DataValidation:
 
 
@@ -166,5 +162,4 @@ class DataValidation:
         except Exception as e:
             raise SensorException(e, sys)
         
-
-
+        
