@@ -75,6 +75,47 @@ class DataTransformation:
             logging.info(f"After resampling in training set Input: {input_feature_train_arr.shape} Target:{target_feature_train_arr.shape}")
             
 
+            smt = SMOTETomek(sampling_strategy="minority")
+            logging.info(f"Before resampling in training set Input: {input_feature_train_arr.shape} Target:{target_feature_train_arr.shape}")
+            input_feature_train_arr, target_feature_train_arr = smt.fit_resample(input_feature_train_arr, target_feature_train_arr)
+            logging.info(f"After resampling in training set Input: {input_feature_train_arr.shape} Target:{target_feature_train_arr.shape}")
+            
+            
+            logging.info(f"Before resampling in testing set Input: {input_feature_test_arr.shape} Target:{target_feature_test_arr.shape}")
+            input_feature_test_arr, target_feature_test_arr = smt.fit_resample(input_feature_test_arr, target_feature_test_arr)
+            logging.info(f"After resampling in testing set Input: {input_feature_test_arr.shape} Target:{target_feature_test_arr.shape}")
+           
+            #target encoder
+            train_arr = np.c_[input_feature_train_arr, target_feature_train_arr ]
+            test_arr = np.c_[input_feature_test_arr, target_feature_test_arr]
+
+            #save numpy array 4 files
+            utils.save_numpy_array_data(file_path=self.data_transformation_config.transformed_train_path,
+                                        array=train_arr)
+
+            utils.save_numpy_array_data(file_path=self.data_transformation_config.transformed_test_path,
+                                        array=test_arr)
+
+
+            utils.save_object(file_path=self.data_transformation_config.transform_object_path,
+             obj=transformation_pipleine)
+
+            utils.save_object(file_path=self.data_transformation_config.target_encoder_path,
+            obj=label_encoder)
+
+            data_transformation_artifact = artifact_entity.DataTransformationArtifact(
+                transform_object_path=self.data_transformation_config.transform_object_path,
+                transformed_train_path = self.data_transformation_config.transformed_train_path,
+                transformed_test_path = self.data_transformation_config.transformed_test_path,
+                target_encoder_path = self.data_transformation_config.target_encoder_path
+
+            )
+
+            logging.info(f"Data transformation object {data_transformation_artifact}")            
+
+            return data_transformation_artifact
+
+
         except Exception as e:
             raise SensorException(e, sys)
                     
