@@ -1,6 +1,6 @@
-env/* linguist-vendored
-.venv/* linguist-vendored
-static/* linguist-vendored
-*.css linguist-detectable=false
-*.c linguist-detectable=false
-*.cpp linguist-detectable=false
+ssvvenv/* linguist-vendored       # Tells GitHub to ignore virtual env files for language stats
+*.css linguist-detectable=false  # Prevents CSS files from skewing language detection
+*.c linguist-detectable=false    # Prevents C source files from affecting stats
+*.cpp linguist-detectable=false  # Prevents C++ source files from affecting stats
+static/* linguist-vendored       # Treat frontend assets as vendored
+
