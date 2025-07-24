@@ -2,10 +2,12 @@
 __pycache__/
 *.py[codz]
 *$py.class
-
+artifact
 # C extensions
 *.so
-
+logs
+artifacts
+raw_data
 # Distribution / packaging
 .Python
 build/
@@ -35,6 +37,12 @@ MANIFEST
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
+
+# Prevent large NumPy binary files from entering Git history
+*.npz
+*.npy
+*.pkl
+*.joblib
 
 # Unit test / coverage reports
 htmlcov/
